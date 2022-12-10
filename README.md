@@ -57,7 +57,7 @@ npm run dev
 ### Para clonar el proyecto en un directorio local, ejecutar el siguiente comando:
 
 ```bash
-git clone https://github.com/MARnVEL/.git
+git clone https://github.com/MARnVEL/tutoReact-useReduce-useContext.git
 ```
 [1]: https://reactjs.org/
 [2]: https://www.youtube.com/@10MinutosProgramando
