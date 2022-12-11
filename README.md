@@ -12,6 +12,11 @@
             <img width="100" src='https://vitejs.dev/logo-with-shadow.png'>
         </a>
     </span>
+    <span>
+        <a href="https://es.javascript.info/" target="_blank">
+            <img width="100" src='https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png'>
+        </a>
+    </span>
 </div>
 
 ### Desarrollo front-end con __React__ y **Vite**.
@@ -22,8 +27,6 @@
 > Es prácticamente igual al tutorial, pero se diferencia en la arquitectura de carpetas del proyecto. Separé el reducer y los types en otras carpetas, como para que el proyecto pueda seguir creciendo.
 > Una diferencia importante es la utilización de **[vite][3]**, en lugar de create react app!
 >También cambié un poquito los estilos y hubo un cambio en la forma de ejecutar el "handleSubmit" del formulario.
-
-![Javascript](https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png)
 
 
 [![Alt text](https://img.youtube.com/vi/j2-X0Pck9jk/0.jpg)](https://www.youtube.com/watch?v=j2-X0Pck9jk)
