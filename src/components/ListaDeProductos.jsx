@@ -11,7 +11,7 @@ const ListaDeProductos = () => {
                 {
                     productos.map(producto => (
 
-                        //!Ojo acá: estas etiquetas li deberían tener un key
+                        //!Ojo acá: estas etiquetas li deberían tener un key, pero debido a que es un ejemplo simple no se los pongo porque mis productos no tienen un id.
 
                         <li className='list-group-item'>
                             {producto.nombre} ({producto.unidades} unidades) ${producto.precio}

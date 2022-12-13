@@ -13,7 +13,6 @@ export const Formulario = () => {
     const handleSubmit = ( ev ) => {
         ev.preventDefault();
         // console.log({ nombre, unidades, precio });
-        
 
         const producto = {
             nombre,
@@ -28,8 +27,6 @@ export const Formulario = () => {
         })
         
         ev.target.reset()
-
-
     }
     return (
         <>
@@ -78,29 +75,29 @@ export const Formulario = () => {
             </form>
 
         {/* <div className="mb-3">
-                    <label htmlFor="" className="form-label">Email</label>
-                    <input 
-                        type="email"
-                        className="form-control"
-                        name="" id="" 
-                        aria-describedby="emailHelpId" 
-                        placeholder="abc@mail.com"
-                    />
-                    <small id="emailHelpId" className="form-text text-muted">Help text</small>
-                </div>
+                <label htmlFor="" className="form-label">Email</label>
+                <input 
+                    type="email"
+                    className="form-control"
+                    name="" id="" 
+                    aria-describedby="emailHelpId" 
+                    placeholder="abc@mail.com"
+                />
+                <small id="emailHelpId" className="form-text text-muted">Help text</small>
+            </div>
 
-                <div className="mb-3">
-                    <label for="" className="form-label">Name</label>
-                    <input 
-                        type="text"    
-                        name="" 
-                        id="" 
-                        className="form-control" 
-                        placeholder="" 
-                        aria-describedby="helpId"
-                    />
-                    <small id="helpId" className="text-muted">Help text</small>
-                </div> */}
+            <div className="mb-3">
+                <label for="" className="form-label">Name</label>
+                <input 
+                    type="text"    
+                    name="" 
+                    id="" 
+                    className="form-control" 
+                    placeholder="" 
+                    aria-describedby="helpId"
+                />
+                <small id="helpId" className="text-muted">Help text</small>
+            </div> */}
         </>
     );
 };

@@ -1,7 +1,11 @@
 import { createContext, useContext, useReducer } from "react"
 import { formReducer } from "../reducers/formReducer";
 
+
+//*1ro- Creo el contexto
 const AppContext = createContext();
+
+//*3ro- Genero una función para usar el contexto en otros componentes. Obviamente esta A esta función hay que exportarla luego.
 
 //*HOOOK PRESONALIZADO
 const useAppContext = (  ) => {
@@ -22,6 +26,7 @@ const AppProvider = ({ children }) => {
 
     return (
         //Esto lo podríamos hacer directamente en el App.jsx, pero es mejor tener todo aquí para así dejar todo el tema de los datos recluídos acá. Todo se gestiona aquí todo se genera aquí, y simplemente luego en nuestra App.jsx decimos que todos nuestros componentes van a estar incluídos dentro del provider, y luego a partir de eso cada uno de los elementos puede utilizar la información que necesite.
+        //*2do- Genero un proveedor de contexto y EN "value" pongo todo lo que quiero que se pueda acceder desde los componentes que consumen el contexto.
         <AppContext.Provider 
             value={{ 
                 presupuesto: state.presupuesto, 

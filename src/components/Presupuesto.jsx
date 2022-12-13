@@ -22,7 +22,7 @@ export const Presupuesto = () => {
                 Presupesto:
             </b>
             <span className='d-block text-decoration-underline text-danger'>
-                 Ar $ { presupuesto - calcularTotal() } 
+                Ar $ { presupuesto - calcularTotal() } 
             </span>
         </div>
     )
