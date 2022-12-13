@@ -10,6 +10,7 @@ export const Formulario = () => {
     const [nombre, setNombre] = useState('')
     const [unidades, setUnidades] = useState('')
     const [precio, setPrecio] = useState('')
+    
     const handleSubmit = ( ev ) => {
         ev.preventDefault();
         // console.log({ nombre, unidades, precio });
