@@ -74,8 +74,8 @@ export const Formulario = () => {
                     />
                 </div>
             </form>
-
-        {/* <div className="mb-3">
+{/* ***** */}
+            {/* <div className="mb-3">
                 <label htmlFor="" className="form-label">Email</label>
                 <input 
                     type="email"
@@ -99,6 +99,7 @@ export const Formulario = () => {
                 />
                 <small id="helpId" className="text-muted">Help text</small>
             </div> */}
+
         </>
     );
 };
